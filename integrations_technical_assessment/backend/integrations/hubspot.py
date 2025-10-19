@@ -1,3 +1,4 @@
+# HubSpot OAuth integration completed
 import json
 import secrets
 import base64
@@ -9,8 +10,6 @@ import httpx
 from integrations.integration_item import IntegrationItem
 from redis_client import add_key_value_redis, get_value_redis, delete_key_redis
 
-
-# HubSpot credentials
 CLIENT_ID = 'b7ac70d4-30cb-42ef-aba5-26b2c8748e4d'
 CLIENT_SECRET = '0367597c-223d-4421-b460-40d3010eefda'
 REDIRECT_URI = 'http://localhost:8000/integrations/hubspot/oauth2callback'
